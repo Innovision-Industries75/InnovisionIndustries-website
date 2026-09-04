@@ -20,7 +20,7 @@ body {
 }
 
 .eyebrow {
-  @apply font-mono text-xs tracking-[0.2em] uppercase text-signal-500;
+  @apply font-mono text-base tracking-[0.2em] uppercase text-signal-500;
 }
 
 /* visible keyboard focus */

@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
-import Capabilities from './components/Capabilities.jsx'
-import Process from './components/Process.jsx'
+import About from './components/About.jsx'
+import Products from './components/Products.jsx'
 import Quality from './components/Quality.jsx'
 import Projects from './components/Projects.jsx'
 import News from './components/News.jsx'
@@ -14,8 +14,8 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <Capabilities />
-        <Process />
+        <About />
+        <Products />
         <Quality />
         <Projects />
         <News />
