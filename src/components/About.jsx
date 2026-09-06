@@ -18,7 +18,7 @@ export default function About() {
             </p>
             <p className="text-steel-500 leading-relaxed">
               We're an ISO 9001:2015 certified facility with a professional team of
-              Production and Mechanical Engineers, using CATIA V5 and SolidWorks for
+              Production and Mechanical Engineers, using CATIA V5 and SoldWorks for
               design and quality control — because for us, quality is what keeps
               customer relationships strong.
             </p>
