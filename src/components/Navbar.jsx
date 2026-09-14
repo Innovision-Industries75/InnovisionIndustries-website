@@ -26,15 +26,9 @@ export default function Navbar() {
     >
       <div className="container-px flex items-center justify-between h-16 md:h-20">
         <a href="#top" className="flex items-center gap-2.5 group">
-          <span className="relative w-8 h-8 flex items-center justify-center">
-            <svg viewBox="0 0 32 32" className="w-8 h-8">
-              <rect x="1" y="1" width="30" height="30" rx="4" fill="none" stroke="#3FD6E8" strokeWidth="1.5" />
-              <circle cx="16" cy="16" r="3.2" fill="#3FD6E8" />
-              <path d="M16 1V8M16 24V31M1 16H8M24 16H31" stroke="#3FD6E8" strokeWidth="1.5" />
-            </svg>
-          </span>
-          <span className="font-display font-semibold text-white text-lg tracking-tight">
-            Innovision <span className="text-signal-400">Industries</span>
+          
+          <span className="font-display font-semibold text-white text-3xl tracking-tight">
+            <span className="text-signal-400">Innovision Industries</span>
           </span>
         </a>
 

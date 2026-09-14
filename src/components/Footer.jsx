@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1fr] gap-12 pb-12">
           <div>
             <span className="font-display font-semibold text-white text-lg tracking-tight">
-              Innovision <span className="text-signal-400">Industries</span>
+               <span className="text-signal-400">Innovision Industries</span>
             </span>
             <p className="text-steel-400 text-sm mt-4 max-w-xs leading-relaxed">
               Precision electronic components and assemblies for aerospace, medical, and
