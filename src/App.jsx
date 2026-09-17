@@ -4,9 +4,9 @@ import About from './components/About.jsx'
 import Products from './components/Products.jsx'
 import Quality from './components/Quality.jsx'
 import Partners from './components/Partners.jsx'
-import News from './components/News.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import Achievements from './components/Achievements.jsx'
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <Products />
         <Quality />
         <Partners />
-        <News />
+        <Achievements />
         <Contact />
       </main>
       <Footer />

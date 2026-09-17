@@ -1,26 +1,25 @@
-import { useState } from 'react'
-
-const SLIDES = [
+export const SLIDES = [
   {
-    title: 'CNC Precision Machining',
-    subtitle: 'Five-axis tolerances under 10 microns',
-    image:'public/photo1.jpg',
-    
+    title: 'We build the components that keep critical systems running.',
+    subtitle:
+      'Innovision Industries is an engineering and manufacturing company specializing in industrial solutions, and equipment for sectors such as automotive, and manufacturing.',
+    image: '/photo1.jpg',
   },
   {
-    title: 'PCB & Electronics Assembly',
-    subtitle: 'High-density SMT lines, 100% AOI inspected',
-    
+    title: 'Precision components trusted across aerospace-grade tolerances.',
+    subtitle:
+      'From fixtures to flight-critical parts, our five-axis machining and inspection processes hold tolerances demanded by aerospace and medical customers.',
+    image: '/photo2.jpg',
   },
   {
-    title: 'Automated Quality Testing',
-    subtitle: 'X-ray and functional test on every batch',
-    
+    title: 'Powering automotive innovation, one component at a time.',
+    subtitle:
+      'High-volume, repeatable manufacturing for automotive components, tooling, and jigs — built to spec, delivered on schedule.',
+    image: '/photo3.jpg',
   },
 ]
 
-export default function HeroCarousel() {
-  const [index, setIndex] = useState(0)
+export default function HeroCarousel({ index, setIndex }) {
   const prev = () => setIndex((i) => (i - 1 + SLIDES.length) % SLIDES.length)
   const next = () => setIndex((i) => (i + 1) % SLIDES.length)
   const slide = SLIDES[index]
@@ -28,11 +27,12 @@ export default function HeroCarousel() {
   return (
     <div className="absolute inset-0 overflow-hidden bg-gradient-to-br from-navy-800 to-navy-950">
       <img
-       src={slide.image}
-       alt={slide.title}
-       className="absolute inset-0 w-full h-full object-cover"
-/>
-        <div className="absolute inset-0 bg-navy-950/70" />
+        key={slide.image}
+        src={slide.image}
+        alt={slide.title}
+        className="absolute inset-0 w-full h-full object-cover scale-110 blur-[2px] transition-opacity duration-700"
+      />
+      <div className="absolute inset-0 bg-navy-950/70" />
 
       <button onClick={prev} aria-label="Previous slide" className="absolute z-20 left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors">
         ‹
