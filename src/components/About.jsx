@@ -26,7 +26,7 @@ export default function About() {
 
           <div className="aspect-square w-full bg-steel-100 border border-steel-200 flex items-center justify-center overflow-hidden">
             <img
-              src="/about-company.jpg"
+              src="/innoIndus.jpg"
               alt="Innovision Industries facility"
               className="w-full h-full object-cover"
               onError={(e) => { e.target.style.display = 'none' }}

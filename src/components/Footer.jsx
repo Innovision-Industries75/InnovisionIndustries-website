@@ -1,11 +1,8 @@
 const COLUMNS = [
-  {
-    heading: 'Capabilities',
-    links: ['PCB Assembly', 'Precision Machining', 'Connectors', 'Sensor Integration', 'Wire Harness'],
-  },
+ 
   {
     heading: 'Company',
-    links: ['About', 'Quality & Certifications', 'Careers', 'Newsroom'],
+    links: ['About', 'Quality & Certifications', 'Partners', 'Products'],
   },
   {
     heading: 'Resources',
